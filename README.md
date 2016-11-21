@@ -1,1 +1,0 @@
-# codingjack7.github.io
