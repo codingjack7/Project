@@ -11,3 +11,17 @@ p{
 li{
 	color:orange;font-family:Arial; font-size:15px;
 }
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: red;
