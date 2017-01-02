@@ -80,7 +80,10 @@ font-family: "Comic Sans", Geneva, Verdana;	font-size:110%;
 }
 /*dream*/
 .dream{
-	background-color:#B6D4E9;
+	background-color:#B6D4E9; text-align:center;
+}
+.py{
+	font-size:165%;
 }
 
 .wiad{
