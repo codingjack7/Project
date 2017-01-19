@@ -1,0 +1,49 @@
+.crazy{
+	text-align:center;
+	color:purple;
+}
+.hold{
+  width:475px;
+  height:300px;
+  position: relative;
+  perspective: 800px;
+}
+.card{
+  text-align:center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    transform-style: preserve-3d;
+  transition: all 1.0s linear;
+  float:left;
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+   backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  font-size:300%;
+}
+.face.front{
+  background:green; 
+  transform: rotateY(0deg);
+}
+.face.back {
+  display: block;
+  box-sizing: border-box;
+  padding: 20px;
+  color: gold;
+  text-align: left;
+  background-color: #333;
+  transform: rotateY(180deg); 
+}
+.card:hover .front{
+  transform: rotateY(-180deg);
+}
+
+.card:hover .back {
+ transform: rotateY(0deg);
+}

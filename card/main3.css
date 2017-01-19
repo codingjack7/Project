@@ -1,0 +1,49 @@
+.meny{
+	text-align:center;
+	color:silver;
+}
+.hold{
+  width:480px;
+  height:290px;
+  position: relative;
+  perspective: 800px;
+}
+.card{
+  text-align:center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    transform-style: preserve-3d;
+  transition: all 1.7s linear;
+  float:left;
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+   backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: 0.46s;
+  font-size:278%;
+}
+.face.front{
+  background: orange; 
+  transform: rotateY(0deg);
+}
+.face.back {
+  display: block;
+  box-sizing: border-box;
+  padding: 45px;
+  color: Red;
+  text-align: left;
+  background-color:black;
+  transform: rotateY(180deg); 
+}
+.card:hover .front{
+  transform: rotateY(-180deg);
+}
+
+.card:hover .back {
+ transform: rotateY(0deg);
+}

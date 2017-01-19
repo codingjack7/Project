@@ -1,0 +1,26 @@
+a:link{
+	color:#ee1515;
+}
+a:hover{
+	color:#222224;
+}
+a:visited{
+	color:#f0f0f0;
+}
+a:active{
+	color:#222224;
+}
+body{background-color: #66ccff; font-size: 147%;}
+
+.gray{
+	color:#708090;
+}
+.brown{
+	color:#653E1D;
+}
+.green{
+	color:#66ff66;
+}
+footer{
+	
+}
