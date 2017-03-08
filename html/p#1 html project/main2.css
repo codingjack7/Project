@@ -1,0 +1,27 @@
+h1{
+background-color:red;
+	padding-top:10px; padding-bottom:10px;padding-left:10px;padding-right:10px; border:10px ridge silver;
+}
+body{
+margin:0px; padding:0px; background-color: #c2c2f0;
+}
+p{
+	color:green; font-size:20; font-family:Sans-serif;
+}
+li{
+	color:orange;font-family:Arial; font-size:15px;
+}
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: red;

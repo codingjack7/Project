@@ -1,0 +1,105 @@
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: violet;
+}
+
+a:active {
+    color: indigo;
+}
+*{
+	margin:0px; padding:0px; list-style-type:none;
+}
+footer{
+	width:1000px; margin:0px auto; border: 7px solid black; background-color:pink; position: absolute; bottom:0;
+}
+.box{
+	background-color: gray; height:120px; width:130px; text-align:center; float:left; border-radius:30px
+}
+
+/*ashlea*/
+.sub{
+	background-color: #DC143C;
+}
+.mom{
+	font-family: "Serif", Arial, Sans-serif; font-size: 124%; padding:1px;
+}
+#size{
+	font-size:109%; padding:1px;
+}
+.walk{
+font-family: "Comic Sans", Geneva, Verdana;	font-size:117%;padding:3px;
+}
+.snow{
+	background-color: #FFFAFA; font-size: 110%;padding:1px;
+}
+
+/*joy*/
+.green{
+	background-color: rgb(20,93,6);
+}
+#joytext{
+	font-family:"Times New Roman",Palatino,perpetua ; font-size: 160%; padding:2px;
+}
+
+/*linnea*/
+.sis{
+	clear:both; font-family:"Times New Roman",Palatino,perpetua ; font-size: 124%; padding:1px;
+}
+.crazy{
+	font-family:"Times New Roman",Palatino,perpetua ; font-size: 145%; padding:1px;
+}
+.lin{
+	background-color:rgb(183,64,174)
+}
+
+/*luigi*/
+.Luigi{
+	background-color:black;
+}
+.phone{color:rgb(0, 255, 255)}
+.red{ font-family:"Garamod",Palatino,Hoefler Test; color:red; font-size:217%; clear:both;}
+.ggreen{font-family:"Garamod",Palatino,Hoefler Test; color:green; font-size:177%;padding:2px;}
+.orange{font-family:"Garamod",Palatino,Hoefler Test; color:orange; font-size:207%;padding:5px;}
+.yellow{font-family:"Garamod",Palatino,Hoefler Test; color:yellow; font-size:167%;padding:1px;}
+.blue{font-family:"Garamod",Palatino,Hoefler Test; color:blue; font-size:187%;padding3px;}
+.purple{font-family:"Garamod",Palatino,Hoefler Test; color:#9966ff;}
+/*olen*/
+
+.Canada{
+ background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png);
+}
+.tetsize{
+	font-size:170%; font-family:perpetua; padding:7px;
+}
+table{
+	background-color:blue;
+}
+td{
+	font-size:170%; font-family:Book Antiqua;
+}
+/*links*/
+.links{
+	background-color: #B4BE0E; font-size:400%;
+}
+
+/*dream*/
+.dream{
+	background-color:#B6D4E9; text-align:center;
+}
+.py{
+	font-size:165%;
+}
+
+.wiad{
+ font-size:408%;
+}
+.part{
+	font-size:350%; 
+}
