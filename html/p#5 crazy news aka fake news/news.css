@@ -1,0 +1,24 @@
+body{
+	background-color:White; padding:8px;
+}
+form{
+	text-align:center;
+}
+*{
+	margin:0px;padding:0px;
+}
+aside{width:1900px; height:100px;background-color:gold; padding:3px;font-size:35px; }
+
+.move{
+	float:left;
+}
+
+.titlename{
+	text-align:center; border:3px solid green; background-color:AliceBlue; font-size:200%; padding: 5px;
+}
+footer{
+	border:5px solid black; padding:15px; font-size: 250%; background-color:#d2b48c;
+}
+section{
+	font-size:24px; font-family:Palatino Linotype;
+}
