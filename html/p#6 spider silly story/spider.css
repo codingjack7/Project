@@ -1,0 +1,4 @@
+#sp{
+	text-align: center; font-size:500%; color:Green; border:3px solid black; 
+}
+i:nth-child(odd){color:pink;}
